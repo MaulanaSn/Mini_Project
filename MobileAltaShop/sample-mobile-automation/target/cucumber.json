@@ -1,0 +1,4120 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-11-02T16:04:49.224Z",
+        "before": [
+          {
+            "result": {
+              "duration": 28453991300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.before()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Regist with nama lengkap, email, and password",
+        "description": "",
+        "id": "register-account;regist-with-nama-lengkap--email--and-password;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1412991400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2636017300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on the register page",
+            "match": {
+              "location": "com.example.steps.RegistStep.iAmOnTheRegisterPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5258767000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I input \"null\" nama lengkap \"null\" email and \"null\" password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"null\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"null\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"null\"",
+                  "offset": 45
+                }
+              ],
+              "location": "com.example.steps.RegistStep.iInputNamaLengkapAndPassword(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1122512900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click register button",
+            "match": {
+              "location": "com.example.steps.RegistStep.iClickRegisterButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 464758700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I will get the \"Must Fill All\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Must Fill All\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.example.steps.RegistStep.iWillGetThe(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-02T16:05:30.155Z",
+        "before": [
+          {
+            "result": {
+              "duration": 24004787300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.before()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Regist with nama lengkap, email, and password",
+        "description": "",
+        "id": "register-account;regist-with-nama-lengkap--email--and-password;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1007863000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2399531400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on the register page",
+            "match": {
+              "location": "com.example.steps.RegistStep.iAmOnTheRegisterPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5052980600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I input \"null\" nama lengkap \"null\" email and \"random\" password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"null\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"null\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"random\"",
+                  "offset": 45
+                }
+              ],
+              "location": "com.example.steps.RegistStep.iInputNamaLengkapAndPassword(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1236873400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click register button",
+            "match": {
+              "location": "com.example.steps.RegistStep.iClickRegisterButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 324657200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I will get the \"Must Fill 12\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Must Fill 12\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.example.steps.RegistStep.iWillGetThe(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-02T16:06:04.477Z",
+        "before": [
+          {
+            "result": {
+              "duration": 24140812400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.before()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Regist with nama lengkap, email, and password",
+        "description": "",
+        "id": "register-account;regist-with-nama-lengkap--email--and-password;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 1360400900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2929848400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on the register page",
+            "match": {
+              "location": "com.example.steps.RegistStep.iAmOnTheRegisterPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4975886400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I input \"null\" nama lengkap \"random\" email and \"null\" password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"null\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"random\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"null\"",
+                  "offset": 47
+                }
+              ],
+              "location": "com.example.steps.RegistStep.iInputNamaLengkapAndPassword(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1218893100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click register button",
+            "match": {
+              "location": "com.example.steps.RegistStep.iClickRegisterButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 335104500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I will get the \"Must Fill 13\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Must Fill 13\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.example.steps.RegistStep.iWillGetThe(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-02T16:06:39.842Z",
+        "before": [
+          {
+            "result": {
+              "duration": 24554814100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.before()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Regist with nama lengkap, email, and password",
+        "description": "",
+        "id": "register-account;regist-with-nama-lengkap--email--and-password;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 1248337100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2895796400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on the register page",
+            "match": {
+              "location": "com.example.steps.RegistStep.iAmOnTheRegisterPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5149437100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I input \"random\" nama lengkap \"null\" email and \"null\" password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"random\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"null\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"null\"",
+                  "offset": 47
+                }
+              ],
+              "location": "com.example.steps.RegistStep.iInputNamaLengkapAndPassword(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 777847700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click register button",
+            "match": {
+              "location": "com.example.steps.RegistStep.iClickRegisterButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 287234200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I will get the \"Must Fill 23\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Must Fill 23\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.example.steps.RegistStep.iWillGetThe(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-02T16:07:17.153Z",
+        "before": [
+          {
+            "result": {
+              "duration": 25029123800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.before()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Regist with nama lengkap, email, and password",
+        "description": "",
+        "id": "register-account;regist-with-nama-lengkap--email--and-password;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 1114647000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2367205400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on the register page",
+            "match": {
+              "location": "com.example.steps.RegistStep.iAmOnTheRegisterPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5076571800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I input \"null\" nama lengkap \"null\" email and \"valid\" password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"null\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"null\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"valid\"",
+                  "offset": 45
+                }
+              ],
+              "location": "com.example.steps.RegistStep.iInputNamaLengkapAndPassword(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1347323800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click register button",
+            "match": {
+              "location": "com.example.steps.RegistStep.iClickRegisterButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 263846900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I will get the \"Must Fill 12\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Must Fill 12\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.example.steps.RegistStep.iWillGetThe(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-02T16:07:52.645Z",
+        "before": [
+          {
+            "result": {
+              "duration": 27101031000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.before()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Regist with nama lengkap, email, and password",
+        "description": "",
+        "id": "register-account;regist-with-nama-lengkap--email--and-password;;7",
+        "after": [
+          {
+            "result": {
+              "duration": 1661352900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2888757200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on the register page",
+            "match": {
+              "location": "com.example.steps.RegistStep.iAmOnTheRegisterPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4906011300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I input \"null\" nama lengkap \"valid\" email and \"null\" password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"null\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"valid\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"null\"",
+                  "offset": 46
+                }
+              ],
+              "location": "com.example.steps.RegistStep.iInputNamaLengkapAndPassword(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1217827100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click register button",
+            "match": {
+              "location": "com.example.steps.RegistStep.iClickRegisterButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 300179300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I will get the \"Must Fill 13\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Must Fill 13\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.example.steps.RegistStep.iWillGetThe(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-02T16:08:31.213Z",
+        "before": [
+          {
+            "result": {
+              "duration": 38957228400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.before()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Regist with nama lengkap, email, and password",
+        "description": "",
+        "id": "register-account;regist-with-nama-lengkap--email--and-password;;8",
+        "after": [
+          {
+            "result": {
+              "duration": 2346678300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2919407800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on the register page",
+            "match": {
+              "location": "com.example.steps.RegistStep.iAmOnTheRegisterPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7030671800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I input \"valid\" nama lengkap \"null\" email and \"null\" password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"valid\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"null\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"null\"",
+                  "offset": 46
+                }
+              ],
+              "location": "com.example.steps.RegistStep.iInputNamaLengkapAndPassword(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1358960100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click register button",
+            "match": {
+              "location": "com.example.steps.RegistStep.iClickRegisterButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1174900500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I will get the \"Must Fill 23\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Must Fill 23\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.example.steps.RegistStep.iWillGetThe(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-02T16:09:25.750Z",
+        "before": [
+          {
+            "result": {
+              "duration": 36036700400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.before()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Regist with nama lengkap, email, and password",
+        "description": "",
+        "id": "register-account;regist-with-nama-lengkap--email--and-password;;9",
+        "after": [
+          {
+            "result": {
+              "duration": 926510800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3077646400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on the register page",
+            "match": {
+              "location": "com.example.steps.RegistStep.iAmOnTheRegisterPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5370507900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I input \"null\" nama lengkap \"valid\" email and \"valid\" password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"null\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"valid\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"valid\"",
+                  "offset": 46
+                }
+              ],
+              "location": "com.example.steps.RegistStep.iInputNamaLengkapAndPassword(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1338223200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click register button",
+            "match": {
+              "location": "com.example.steps.RegistStep.iClickRegisterButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 256557400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I will get the \"Must Fill 1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Must Fill 1\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.example.steps.RegistStep.iWillGetThe(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-02T16:10:13.796Z",
+        "before": [
+          {
+            "result": {
+              "duration": 21134966500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.before()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Regist with nama lengkap, email, and password",
+        "description": "",
+        "id": "register-account;regist-with-nama-lengkap--email--and-password;;10",
+        "after": [
+          {
+            "result": {
+              "duration": 1203819100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2086533100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on the register page",
+            "match": {
+              "location": "com.example.steps.RegistStep.iAmOnTheRegisterPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5093797100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I input \"random\" nama lengkap \"random\" email and \"null\" password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"random\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"random\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"null\"",
+                  "offset": 49
+                }
+              ],
+              "location": "com.example.steps.RegistStep.iInputNamaLengkapAndPassword(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1288649600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click register button",
+            "match": {
+              "location": "com.example.steps.RegistStep.iClickRegisterButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 157130300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I will get the \"Must Fill 3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Must Fill 3\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.example.steps.RegistStep.iWillGetThe(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-02T16:10:44.855Z",
+        "before": [
+          {
+            "result": {
+              "duration": 18896258300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.before()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Regist with nama lengkap, email, and password",
+        "description": "",
+        "id": "register-account;regist-with-nama-lengkap--email--and-password;;11",
+        "after": [
+          {
+            "result": {
+              "duration": 1073354000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2108126100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on the register page",
+            "match": {
+              "location": "com.example.steps.RegistStep.iAmOnTheRegisterPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4940831700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I input \"null\" nama lengkap \"valid\" email and \"valid\" password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"null\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"valid\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"valid\"",
+                  "offset": 46
+                }
+              ],
+              "location": "com.example.steps.RegistStep.iInputNamaLengkapAndPassword(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1322641700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click register button",
+            "match": {
+              "location": "com.example.steps.RegistStep.iClickRegisterButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 143631400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I will get the \"Must Fill 1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Must Fill 1\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.example.steps.RegistStep.iWillGetThe(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-02T16:11:13.397Z",
+        "before": [
+          {
+            "result": {
+              "duration": 18288477300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.before()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Regist with nama lengkap, email, and password",
+        "description": "",
+        "id": "register-account;regist-with-nama-lengkap--email--and-password;;12",
+        "after": [
+          {
+            "result": {
+              "duration": 1157922200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2126595600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on the register page",
+            "match": {
+              "location": "com.example.steps.RegistStep.iAmOnTheRegisterPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5420220100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I input \"valid\" nama lengkap \"valid\" email and \"null\" password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"valid\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"valid\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"null\"",
+                  "offset": 47
+                }
+              ],
+              "location": "com.example.steps.RegistStep.iInputNamaLengkapAndPassword(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1212892900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click register button",
+            "match": {
+              "location": "com.example.steps.RegistStep.iClickRegisterButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 146607900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I will get the \"Must Fill 3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Must Fill 3\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.example.steps.RegistStep.iWillGetThe(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-02T16:11:41.802Z",
+        "before": [
+          {
+            "result": {
+              "duration": 29145704600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.before()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Regist with nama lengkap, email, and password",
+        "description": "",
+        "id": "register-account;regist-with-nama-lengkap--email--and-password;;13",
+        "after": [
+          {
+            "result": {
+              "duration": 1134032100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2005573500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on the register page",
+            "match": {
+              "location": "com.example.steps.RegistStep.iAmOnTheRegisterPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5181507200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I input \"valid\" nama lengkap \"valid\" email and \"valid\" password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"valid\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"valid\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"valid\"",
+                  "offset": 47
+                }
+              ],
+              "location": "com.example.steps.RegistStep.iInputNamaLengkapAndPassword(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1355785300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click register button",
+            "match": {
+              "location": "com.example.steps.RegistStep.iClickRegisterButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2398112600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I will get the \"failed regist\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"failed regist\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.example.steps.RegistStep.iWillGetThe(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-02T16:12:23.075Z",
+        "before": [
+          {
+            "result": {
+              "duration": 21022079800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.before()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "Regist with nama lengkap, email, and password",
+        "description": "",
+        "id": "register-account;regist-with-nama-lengkap--email--and-password;;14",
+        "after": [
+          {
+            "result": {
+              "duration": 938546900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2174797600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on the register page",
+            "match": {
+              "location": "com.example.steps.RegistStep.iAmOnTheRegisterPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5125534000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I input \"random\" nama lengkap \"random\" email and \"random\" password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"random\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"random\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"random\"",
+                  "offset": 49
+                }
+              ],
+              "location": "com.example.steps.RegistStep.iInputNamaLengkapAndPassword(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1153122200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click register button",
+            "match": {
+              "location": "com.example.steps.RegistStep.iClickRegisterButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2256680800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I will get the \"success\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"success\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.example.steps.RegistStep.iWillGetThe(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-02T16:12:55.806Z",
+        "before": [
+          {
+            "result": {
+              "duration": 22326809300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.before()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "Regist with nama lengkap, email, and password",
+        "description": "",
+        "id": "register-account;regist-with-nama-lengkap--email--and-password;;15",
+        "after": [
+          {
+            "result": {
+              "duration": 1074201100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1329505100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on the register page",
+            "match": {
+              "location": "com.example.steps.RegistStep.iAmOnTheRegisterPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5989107800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I input \"valid\" nama lengkap \"null\" email and \"random\" password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"valid\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"null\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"random\"",
+                  "offset": 46
+                }
+              ],
+              "location": "com.example.steps.RegistStep.iInputNamaLengkapAndPassword(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 735033300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click register button",
+            "match": {
+              "location": "com.example.steps.RegistStep.iClickRegisterButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 612361400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I will get the \"Must Fill 2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Must Fill 2\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.example.steps.RegistStep.iWillGetThe(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-02T16:13:27.979Z",
+        "before": [
+          {
+            "result": {
+              "duration": 22115883500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.before()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "Regist with nama lengkap, email, and password",
+        "description": "",
+        "id": "register-account;regist-with-nama-lengkap--email--and-password;;16",
+        "after": [
+          {
+            "result": {
+              "duration": 1379572900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2134117800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on the register page",
+            "match": {
+              "location": "com.example.steps.RegistStep.iAmOnTheRegisterPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6477001800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I input \"valid\" nama lengkap \"random\" email and \"null\" password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"valid\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"random\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"null\"",
+                  "offset": 48
+                }
+              ],
+              "location": "com.example.steps.RegistStep.iInputNamaLengkapAndPassword(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1182445600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click register button",
+            "match": {
+              "location": "com.example.steps.RegistStep.iClickRegisterButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 315669500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I will get the \"Must Fill 3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Must Fill 3\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.example.steps.RegistStep.iWillGetThe(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-02T16:14:01.758Z",
+        "before": [
+          {
+            "result": {
+              "duration": 25041654900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.before()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "Regist with nama lengkap, email, and password",
+        "description": "",
+        "id": "register-account;regist-with-nama-lengkap--email--and-password;;17",
+        "after": [
+          {
+            "result": {
+              "duration": 1085873500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2398415800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on the register page",
+            "match": {
+              "location": "com.example.steps.RegistStep.iAmOnTheRegisterPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4821256300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I input \"random\" nama lengkap \"valid\" email and \"null\" password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"random\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"valid\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"null\"",
+                  "offset": 48
+                }
+              ],
+              "location": "com.example.steps.RegistStep.iInputNamaLengkapAndPassword(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1232065900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click register button",
+            "match": {
+              "location": "com.example.steps.RegistStep.iClickRegisterButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 162084300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I will get the \"Must Fill 3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Must Fill 3\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.example.steps.RegistStep.iWillGetThe(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-02T16:14:36.590Z",
+        "before": [
+          {
+            "result": {
+              "duration": 23334322800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.before()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "Regist with nama lengkap, email, and password",
+        "description": "",
+        "id": "register-account;regist-with-nama-lengkap--email--and-password;;18",
+        "after": [
+          {
+            "result": {
+              "duration": 1043823600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2596758100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on the register page",
+            "match": {
+              "location": "com.example.steps.RegistStep.iAmOnTheRegisterPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4747677700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I input \"random\" nama lengkap \"null\" email and \"valid\" password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"random\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"null\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"valid\"",
+                  "offset": 47
+                }
+              ],
+              "location": "com.example.steps.RegistStep.iInputNamaLengkapAndPassword(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1368845600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click register button",
+            "match": {
+              "location": "com.example.steps.RegistStep.iClickRegisterButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 153161500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I will get the \"Must Fill 2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Must Fill 2\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.example.steps.RegistStep.iWillGetThe(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-02T16:15:09.910Z",
+        "before": [
+          {
+            "result": {
+              "duration": 23163489100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.before()"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "Regist with nama lengkap, email, and password",
+        "description": "",
+        "id": "register-account;regist-with-nama-lengkap--email--and-password;;19",
+        "after": [
+          {
+            "result": {
+              "duration": 1207768400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2102997100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on the register page",
+            "match": {
+              "location": "com.example.steps.RegistStep.iAmOnTheRegisterPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5007484300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I input \"valid\" nama lengkap \"valid\" email and \"random\" password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"valid\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"valid\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"random\"",
+                  "offset": 47
+                }
+              ],
+              "location": "com.example.steps.RegistStep.iInputNamaLengkapAndPassword(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1514544700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click register button",
+            "match": {
+              "location": "com.example.steps.RegistStep.iClickRegisterButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2260096200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I will get the \"failed regist\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"failed regist\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.example.steps.RegistStep.iWillGetThe(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-02T16:15:45.244Z",
+        "before": [
+          {
+            "result": {
+              "duration": 27042971000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.before()"
+            }
+          }
+        ],
+        "line": 31,
+        "name": "Regist with nama lengkap, email, and password",
+        "description": "",
+        "id": "register-account;regist-with-nama-lengkap--email--and-password;;20",
+        "after": [
+          {
+            "result": {
+              "duration": 1047806000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1846185500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on the register page",
+            "match": {
+              "location": "com.example.steps.RegistStep.iAmOnTheRegisterPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6355402300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I input \"random\" nama lengkap \"random\" email and \"valid\" password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"random\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"random\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"valid\"",
+                  "offset": 49
+                }
+              ],
+              "location": "com.example.steps.RegistStep.iInputNamaLengkapAndPassword(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1083262000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click register button",
+            "match": {
+              "location": "com.example.steps.RegistStep.iClickRegisterButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2344476500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I will get the \"success\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"success\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.example.steps.RegistStep.iWillGetThe(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-02T16:16:25.293Z",
+        "before": [
+          {
+            "result": {
+              "duration": 24133251600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.before()"
+            }
+          }
+        ],
+        "line": 32,
+        "name": "Regist with nama lengkap, email, and password",
+        "description": "",
+        "id": "register-account;regist-with-nama-lengkap--email--and-password;;21",
+        "after": [
+          {
+            "result": {
+              "duration": 1611800800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2574852100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on the register page",
+            "match": {
+              "location": "com.example.steps.RegistStep.iAmOnTheRegisterPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5536206600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I input \"valid\" nama lengkap \"random\" email and \"valid\" password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"valid\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"random\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"valid\"",
+                  "offset": 48
+                }
+              ],
+              "location": "com.example.steps.RegistStep.iInputNamaLengkapAndPassword(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 869044300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click register button",
+            "match": {
+              "location": "com.example.steps.RegistStep.iClickRegisterButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3327229000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I will get the \"success\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"success\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.example.steps.RegistStep.iWillGetThe(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-02T16:17:03.522Z",
+        "before": [
+          {
+            "result": {
+              "duration": 22027114000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.before()"
+            }
+          }
+        ],
+        "line": 33,
+        "name": "Regist with nama lengkap, email, and password",
+        "description": "",
+        "id": "register-account;regist-with-nama-lengkap--email--and-password;;22",
+        "after": [
+          {
+            "result": {
+              "duration": 990526800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2263418600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on the register page",
+            "match": {
+              "location": "com.example.steps.RegistStep.iAmOnTheRegisterPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4775976800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I input \"random\" nama lengkap \"valid\" email and \"random\" password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"random\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"valid\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"random\"",
+                  "offset": 48
+                }
+              ],
+              "location": "com.example.steps.RegistStep.iInputNamaLengkapAndPassword(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1155419200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click register button",
+            "match": {
+              "location": "com.example.steps.RegistStep.iClickRegisterButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2230140400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I will get the \"failed regist\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"failed regist\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.example.steps.RegistStep.iWillGetThe(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-02T16:17:37.045Z",
+        "before": [
+          {
+            "result": {
+              "duration": 20272492600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.before()"
+            }
+          }
+        ],
+        "line": 34,
+        "name": "Regist with nama lengkap, email, and password",
+        "description": "",
+        "id": "register-account;regist-with-nama-lengkap--email--and-password;;23",
+        "after": [
+          {
+            "result": {
+              "duration": 974750300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2156454000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on the register page",
+            "match": {
+              "location": "com.example.steps.RegistStep.iAmOnTheRegisterPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5341101100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I input \"random\" nama lengkap \"valid\" email and \"valid\" password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"random\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"valid\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"valid\"",
+                  "offset": 48
+                }
+              ],
+              "location": "com.example.steps.RegistStep.iInputNamaLengkapAndPassword(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 785951300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click register button",
+            "match": {
+              "location": "com.example.steps.RegistStep.iClickRegisterButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2641117400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I will get the \"failed regist\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"failed regist\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.example.steps.RegistStep.iWillGetThe(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-02T16:18:09.297Z",
+        "before": [
+          {
+            "result": {
+              "duration": 20568310400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.before()"
+            }
+          }
+        ],
+        "line": 35,
+        "name": "Regist with nama lengkap, email, and password",
+        "description": "",
+        "id": "register-account;regist-with-nama-lengkap--email--and-password;;24",
+        "after": [
+          {
+            "result": {
+              "duration": 937421800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2098931800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on the register page",
+            "match": {
+              "location": "com.example.steps.RegistStep.iAmOnTheRegisterPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5424556600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I input \"valid\" nama lengkap \"random\" email and \"valid\" password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"valid\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"random\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"valid\"",
+                  "offset": 48
+                }
+              ],
+              "location": "com.example.steps.RegistStep.iInputNamaLengkapAndPassword(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 784952700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click register button",
+            "match": {
+              "location": "com.example.steps.RegistStep.iClickRegisterButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2672359700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I will get the \"success\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"success\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.example.steps.RegistStep.iWillGetThe(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-02T16:18:41.849Z",
+        "before": [
+          {
+            "result": {
+              "duration": 20007641700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.before()"
+            }
+          }
+        ],
+        "line": 36,
+        "name": "Regist with nama lengkap, email, and password",
+        "description": "",
+        "id": "register-account;regist-with-nama-lengkap--email--and-password;;25",
+        "after": [
+          {
+            "result": {
+              "duration": 919574000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2225996400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on the register page",
+            "match": {
+              "location": "com.example.steps.RegistStep.iAmOnTheRegisterPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4967595000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I input \"valid\" nama lengkap \"valid\" email and \"random\" password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"valid\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"valid\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"random\"",
+                  "offset": 47
+                }
+              ],
+              "location": "com.example.steps.RegistStep.iInputNamaLengkapAndPassword(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1142978500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click register button",
+            "match": {
+              "location": "com.example.steps.RegistStep.iClickRegisterButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2187725700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I will get the \"failed regist\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"failed regist\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.example.steps.RegistStep.iWillGetThe(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-02T16:19:13.687Z",
+        "before": [
+          {
+            "result": {
+              "duration": 18210666100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.before()"
+            }
+          }
+        ],
+        "line": 37,
+        "name": "Regist with nama lengkap, email, and password",
+        "description": "",
+        "id": "register-account;regist-with-nama-lengkap--email--and-password;;26",
+        "after": [
+          {
+            "result": {
+              "duration": 1199790300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2201905100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on the register page",
+            "match": {
+              "location": "com.example.steps.RegistStep.iAmOnTheRegisterPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4797317500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I input \"valid\" nama lengkap \"random\" email and \"random\" password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"valid\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"random\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"random\"",
+                  "offset": 48
+                }
+              ],
+              "location": "com.example.steps.RegistStep.iInputNamaLengkapAndPassword(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1191329900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click register button",
+            "match": {
+              "location": "com.example.steps.RegistStep.iClickRegisterButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2313808600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I will get the \"success\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"success\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.example.steps.RegistStep.iWillGetThe(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-02T16:19:43.653Z",
+        "before": [
+          {
+            "result": {
+              "duration": 17172500300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.before()"
+            }
+          }
+        ],
+        "line": 38,
+        "name": "Regist with nama lengkap, email, and password",
+        "description": "",
+        "id": "register-account;regist-with-nama-lengkap--email--and-password;;27",
+        "after": [
+          {
+            "result": {
+              "duration": 822304400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2560083900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on the register page",
+            "match": {
+              "location": "com.example.steps.RegistStep.iAmOnTheRegisterPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4694691800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I input \"random\" nama lengkap \"valid\" email and \"random\" password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"random\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"valid\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"random\"",
+                  "offset": 48
+                }
+              ],
+              "location": "com.example.steps.RegistStep.iInputNamaLengkapAndPassword(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1143554500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click register button",
+            "match": {
+              "location": "com.example.steps.RegistStep.iClickRegisterButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2203479500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I will get the \"failed regist\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"failed regist\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.example.steps.RegistStep.iWillGetThe(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-02T16:20:12.300Z",
+        "before": [
+          {
+            "result": {
+              "duration": 21412137400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.before()"
+            }
+          }
+        ],
+        "line": 39,
+        "name": "Regist with nama lengkap, email, and password",
+        "description": "",
+        "id": "register-account;regist-with-nama-lengkap--email--and-password;;28",
+        "after": [
+          {
+            "result": {
+              "duration": 946592400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2200448900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on the register page",
+            "match": {
+              "location": "com.example.steps.RegistStep.iAmOnTheRegisterPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4804822300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I input \"random\" nama lengkap \"random\" email and \"valid\" password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"random\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"random\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"valid\"",
+                  "offset": 49
+                }
+              ],
+              "location": "com.example.steps.RegistStep.iInputNamaLengkapAndPassword(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1264534500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click register button",
+            "match": {
+              "location": "com.example.steps.RegistStep.iClickRegisterButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2274850500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I will get the \"success\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"success\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.example.steps.RegistStep.iWillGetThe(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Register Account",
+    "description": "  As a guest\n  I want to register account\n  So I can login",
+    "id": "register-account",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/altaStore/a_Regist.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-11-02T16:20:45.373Z",
+        "before": [
+          {
+            "result": {
+              "duration": 17525447600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.before()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Login with email and Password",
+        "description": "",
+        "id": "login-account;login-with-email-and-password;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 959430900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1176131300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on the login page",
+            "match": {
+              "location": "com.example.steps.LoginStep.iAmOnTheLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3046376800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I input \"valid\" email \"valid\" password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"valid\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"valid\"",
+                  "offset": 22
+                }
+              ],
+              "location": "com.example.steps.LoginStep.iInputEmailPassword(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1304509900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click Login button",
+            "match": {
+              "location": "com.example.steps.LoginStep.iClickLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2274496300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I will get the \"success\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"success\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.example.steps.RegistStep.iWillGetThe(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-02T16:21:11.853Z",
+        "before": [
+          {
+            "result": {
+              "duration": 16215767500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.before()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Login with email and Password",
+        "description": "",
+        "id": "login-account;login-with-email-and-password;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1651579800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1164398700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on the login page",
+            "match": {
+              "location": "com.example.steps.LoginStep.iAmOnTheLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3173918500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I input \"random\" email \"valid\" password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"random\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"valid\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.example.steps.LoginStep.iInputEmailPassword(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1472059900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click Login button",
+            "match": {
+              "location": "com.example.steps.LoginStep.iClickLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7979000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I will get the \"failed message\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"failed message\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.example.steps.RegistStep.iWillGetThe(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-02T16:21:35.608Z",
+        "before": [
+          {
+            "result": {
+              "duration": 19870021100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.before()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Login with email and Password",
+        "description": "",
+        "id": "login-account;login-with-email-and-password;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 910508600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 416887100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on the login page",
+            "match": {
+              "location": "com.example.steps.LoginStep.iAmOnTheLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3678101500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I input \"valid\" email \"random\" password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"valid\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"random\"",
+                  "offset": 22
+                }
+              ],
+              "location": "com.example.steps.LoginStep.iInputEmailPassword(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 683172600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click Login button",
+            "match": {
+              "location": "com.example.steps.LoginStep.iClickLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3990300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I will get the \"failed message\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"failed message\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.example.steps.RegistStep.iWillGetThe(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-02T16:22:01.219Z",
+        "before": [
+          {
+            "result": {
+              "duration": 20178445300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.before()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Login with email and Password",
+        "description": "",
+        "id": "login-account;login-with-email-and-password;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 948463700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 415887900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on the login page",
+            "match": {
+              "location": "com.example.steps.LoginStep.iAmOnTheLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4056143600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I input \"random\" email \"random\" password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"random\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"random\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.example.steps.LoginStep.iInputEmailPassword(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1182833900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click Login button",
+            "match": {
+              "location": "com.example.steps.LoginStep.iClickLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4986600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I will get the \"failed message\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"failed message\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.example.steps.RegistStep.iWillGetThe(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-02T16:22:28.049Z",
+        "before": [
+          {
+            "result": {
+              "duration": 16056176400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.before()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Login with email and Password",
+        "description": "",
+        "id": "login-account;login-with-email-and-password;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 1071658600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1262622800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on the login page",
+            "match": {
+              "location": "com.example.steps.LoginStep.iAmOnTheLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2725639800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I input \"null\" email \"null\" password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"null\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"null\"",
+                  "offset": 21
+                }
+              ],
+              "location": "com.example.steps.LoginStep.iInputEmailPassword(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 722069400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click Login button",
+            "match": {
+              "location": "com.example.steps.LoginStep.iClickLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 276261100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I will get the \"Must Fill 23\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Must Fill 23\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.example.steps.RegistStep.iWillGetThe(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-02T16:22:50.211Z",
+        "before": [
+          {
+            "result": {
+              "duration": 15728887300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.before()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Login with email and Password",
+        "description": "",
+        "id": "login-account;login-with-email-and-password;;7",
+        "after": [
+          {
+            "result": {
+              "duration": 904126300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 399929800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on the login page",
+            "match": {
+              "location": "com.example.steps.LoginStep.iAmOnTheLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3791630400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I input \"random\" email \"null\" password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"random\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"null\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.example.steps.LoginStep.iInputEmailPassword(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 715187700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click Login button",
+            "match": {
+              "location": "com.example.steps.LoginStep.iClickLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 111724500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I will get the \"Must Fill 3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Must Fill 3\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.example.steps.RegistStep.iWillGetThe(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-02T16:23:11.910Z",
+        "before": [
+          {
+            "result": {
+              "duration": 18794412100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.before()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Login with email and Password",
+        "description": "",
+        "id": "login-account;login-with-email-and-password;;8",
+        "after": [
+          {
+            "result": {
+              "duration": 997332600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1170207700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on the login page",
+            "match": {
+              "location": "com.example.steps.LoginStep.iAmOnTheLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2536215800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I input \"null\" email \"random\" password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"null\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"random\"",
+                  "offset": 21
+                }
+              ],
+              "location": "com.example.steps.LoginStep.iInputEmailPassword(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1352514900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click Login button",
+            "match": {
+              "location": "com.example.steps.LoginStep.iClickLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 115688400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I will get the \"Must Fill 2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Must Fill 2\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.example.steps.RegistStep.iWillGetThe(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-02T16:23:36.918Z",
+        "before": [
+          {
+            "result": {
+              "duration": 17468444800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.before()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Login with email and Password",
+        "description": "",
+        "id": "login-account;login-with-email-and-password;;9",
+        "after": [
+          {
+            "result": {
+              "duration": 1161893200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1125684500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on the login page",
+            "match": {
+              "location": "com.example.steps.LoginStep.iAmOnTheLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3105199200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I input \"valid\" email \"null\" password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"valid\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"null\"",
+                  "offset": 22
+                }
+              ],
+              "location": "com.example.steps.LoginStep.iInputEmailPassword(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 721170300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click Login button",
+            "match": {
+              "location": "com.example.steps.LoginStep.iClickLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 128655200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I will get the \"Must Fill 3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Must Fill 3\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.example.steps.RegistStep.iWillGetThe(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-02T16:24:00.674Z",
+        "before": [
+          {
+            "result": {
+              "duration": 22547173100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.before()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Login with email and Password",
+        "description": "",
+        "id": "login-account;login-with-email-and-password;;10",
+        "after": [
+          {
+            "result": {
+              "duration": 1353376500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1249582800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on the login page",
+            "match": {
+              "location": "com.example.steps.LoginStep.iAmOnTheLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2856347200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I input \"null\" email \"valid\" password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"null\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"valid\"",
+                  "offset": 21
+                }
+              ],
+              "location": "com.example.steps.LoginStep.iInputEmailPassword(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1088090100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click Login button",
+            "match": {
+              "location": "com.example.steps.LoginStep.iClickLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 588424500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I will get the \"Must Fill 2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Must Fill 2\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.example.steps.RegistStep.iWillGetThe(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login Account",
+    "description": "  As a user\n  I want to login\n  So I can access my dashboard",
+    "id": "login-account",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/altaStore/b_Login.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-11-02T16:24:30.445Z",
+        "before": [
+          {
+            "result": {
+              "duration": 17255501800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.before()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Add one product",
+        "description": "",
+        "id": "add-product-to-cart;add-one-product;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1291575900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7974161000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I have login on Alta Store",
+            "match": {
+              "location": "com.example.steps.LogoutStep.iHaveLoginOnAltaStore()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 822238600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click buy on the \"1\" product",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1\"",
+                  "offset": 19
+                }
+              ],
+              "location": "com.example.steps.AddProductStep.iClickBuyOnTheProduct(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 190173200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I will see the \"1\" number on the cart",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.example.steps.AddProductStep.iWillSeeTheNumberOnTheCart(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-02T16:24:58.346Z",
+        "before": [
+          {
+            "result": {
+              "duration": 25226101000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.before()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Add one product",
+        "description": "",
+        "id": "add-product-to-cart;add-one-product;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1038222600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10077038000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I have login on Alta Store",
+            "match": {
+              "location": "com.example.steps.LogoutStep.iHaveLoginOnAltaStore()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4180742900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click buy on the \"2\" product",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2\"",
+                  "offset": 19
+                }
+              ],
+              "location": "com.example.steps.AddProductStep.iClickBuyOnTheProduct(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 173535800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I will see the \"2\" number on the cart",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.example.steps.AddProductStep.iWillSeeTheNumberOnTheCart(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-02T16:25:39.424Z",
+        "before": [
+          {
+            "result": {
+              "duration": 21412138600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.before()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Add one product",
+        "description": "",
+        "id": "add-product-to-cart;add-one-product;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 1129506800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8516035300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I have login on Alta Store",
+            "match": {
+              "location": "com.example.steps.LogoutStep.iHaveLoginOnAltaStore()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3935159500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click buy on the \"3\" product",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"3\"",
+                  "offset": 19
+                }
+              ],
+              "location": "com.example.steps.AddProductStep.iClickBuyOnTheProduct(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 159572500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I will see the \"3\" number on the cart",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"3\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.example.steps.AddProductStep.iWillSeeTheNumberOnTheCart(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-02T16:26:14.684Z",
+        "before": [
+          {
+            "result": {
+              "duration": 18811910700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.before()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Add one product",
+        "description": "",
+        "id": "add-product-to-cart;add-one-product;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 1141943800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7830811700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I have login on Alta Store",
+            "match": {
+              "location": "com.example.steps.LogoutStep.iHaveLoginOnAltaStore()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6133653700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click buy on the \"4\" product",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"4\"",
+                  "offset": 19
+                }
+              ],
+              "location": "com.example.steps.AddProductStep.iClickBuyOnTheProduct(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 179514000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I will see the \"4\" number on the cart",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"4\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.example.steps.AddProductStep.iWillSeeTheNumberOnTheCart(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-02T16:26:48.890Z",
+        "before": [
+          {
+            "result": {
+              "duration": 20453125500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.before()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Add one product",
+        "description": "",
+        "id": "add-product-to-cart;add-one-product;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 828170200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8034077400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I have login on Alta Store",
+            "match": {
+              "location": "com.example.steps.LogoutStep.iHaveLoginOnAltaStore()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7190777000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click buy on the \"5\" product",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"5\"",
+                  "offset": 19
+                }
+              ],
+              "location": "com.example.steps.AddProductStep.iClickBuyOnTheProduct(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 144623400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I will see the \"5\" number on the cart",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"5\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.example.steps.AddProductStep.iWillSeeTheNumberOnTheCart(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Add Product To Cart",
+    "description": "  As a user\n  I want to buy product\n  So i can add product to cart",
+    "id": "add-product-to-cart",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/altaStore/c_AddProductToCart.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-11-02T16:27:25.616Z",
+        "before": [
+          {
+            "result": {
+              "duration": 16152337600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.before()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Logout with valid email and Password",
+        "description": "",
+        "id": "logout-account;logout-with-valid-email-and-password",
+        "after": [
+          {
+            "result": {
+              "duration": 793876600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7804117700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I have login on Alta Store",
+            "match": {
+              "location": "com.example.steps.LogoutStep.iHaveLoginOnAltaStore()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 674194400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click logout icon",
+            "match": {
+              "location": "com.example.steps.LogoutStep.iClickLogoutIcon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 998329400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I will go to login page",
+            "match": {
+              "location": "com.example.steps.LogoutStep.iWillGoToLoginPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Logout Account",
+    "description": "  As a user\n  I want to logout\n  So I can logout my account",
+    "id": "logout-account",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/altaStore/d_Logout.feature",
+    "tags": []
+  }
+]

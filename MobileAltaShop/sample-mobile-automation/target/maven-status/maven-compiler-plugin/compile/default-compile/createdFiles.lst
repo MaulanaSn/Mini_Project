@@ -1,0 +1,8 @@
+com\example\app\utils\GenerateString.class
+com\example\app\pages\AddProductToCartPage.class
+com\example\app\drivers\AndroidDriverInit.class
+com\example\app\base\BasePageObject.class
+com\example\app\pages\LoginPage.class
+com\example\app\pages\LogoutPage.class
+com\example\app\pages\MyTaskPage.class
+com\example\app\pages\RegistPage.class

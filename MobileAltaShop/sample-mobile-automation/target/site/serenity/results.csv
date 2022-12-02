@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Register Account","Regist with nama lengkap, email, and password","SUCCESS","2022-11-02T23:04:49.6214358+07:00[Asia/Bangkok]","0.0","955.63"
+"Login Account","Login with email and Password","SUCCESS","2022-11-02T23:20:45.4655831+07:00[Asia/Bangkok]","0.0","224.95"
+"Add Product To Cart","Add one product","SUCCESS","2022-11-02T23:24:30.5158044+07:00[Asia/Bangkok]","0.0","175.06"
+"Logout Account","Logout with valid email and Password","SUCCESS","2022-11-02T23:27:25.6687844+07:00[Asia/Bangkok]","0.0","26.46"
